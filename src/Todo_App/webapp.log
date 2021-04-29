@@ -764,3 +764,6 @@ created by net/http.(*Server).Serve
 2021/04/26 01:47:51 main.go:17: sql: Scan error on column index 1, name "uuid": converting driver.Value type string ("f917b5ac-a5e5-11eb-96b2-1e008a3a4258") to a int: invalid syntax
 2021/04/26 01:50:58 main.go:17: sql: Scan error on column index 1, name "uuid": converting driver.Value type string ("69185370-a5e6-11eb-ac5d-1e008a3a4258") to a int: invalid syntax
 2021/04/27 01:23:12 server.go:3139: http: superfluous response.WriteHeader call from Golang6/src/Todo_App/app/contollers.signup (route_auth.go:32)
+2021/04/28 01:47:22 route_auth.go:76: http: named cookie not present
+2021/04/28 01:51:49 server.go:3139: http: superfluous response.WriteHeader call from Golang6/src/Todo_App/app/contollers.signup (route_auth.go:32)
+2021/04/28 01:57:14 server.go:3139: http: superfluous response.WriteHeader call from Golang6/src/Todo_App/app/contollers.signup (route_auth.go:32)
